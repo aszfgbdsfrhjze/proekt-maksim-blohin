@@ -1,0 +1,69 @@
+main{
+    background: linear-gradient(#ffebcd, #ff9642);
+}
+*{
+    color:  #3b3b3b;
+}
+body{
+   font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    
+}
+p.create{
+    background-color:#FFF6D9;/*цвет блока внизу подпись*/
+    display: inline-block;
+    padding: 10px;
+}
+h2.lapa{
+    padding: 10px 0;
+    background: url(basket2-Photoroom.png);
+    background-size: contain;
+background-repeat: no-repeat;
+}
+.container {
+    width: 60%;
+     margin: auto;
+     
+ }
+ footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a.buy{
+    background-color: #e77a32; /*цвет кнопки купить и карта*/
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    color: white;
+    text-decoration:none;
+    text-align: center;
+    }
+    .btn{
+    outline: none;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #444;
+	
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+   
+    }
+    .map{
+      
+padding: 2vh;
+display: flex;
+justify-content: center;
+    }
+    
